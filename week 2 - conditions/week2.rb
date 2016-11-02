@@ -1,99 +1,93 @@
-
 #Create the following statements
 
-•If
+#•If
+
+cookies = ['Chocolate', 'Peanut Butter', 'oatmeal']
+
+if cookies.include?('Chocolate')
+  puts "Kristyn is excited for cookies"
+end
+
+#•If else
 
 
-If cookies .has(Chocolate)
-
-Puts “Kristyn is excited for cookies”
-
-•If else
-
-
-If cookies .has(Chocolate)
-
-Puts “Kristyn is excited for cookies”
-
-Else
-
-Puts “Kristyn doesn’t want the cookies”
-
-•If elsif else
+if cookies.include?('Chocolate')
+  puts "Kristyn is excited for cookies"
+else
+  puts "Kristyn doesn't want the cookies"
+end
 
 
-If cookies .has(Chocolate)
+#•If elsif else
 
-Puts “Kristyn is excited for cookies”
+if cookies.include?('Chocolate')
+  puts "Kristyn is excited for cookies"
+elsif cookies.include?('Peanutbutter')
+  puts "Kristyn wants the cookies"
 
-Elseif cookies .has(Peanutbutter)
+else
+  puts "Kristyn doesn’t want the cookies"
+end
 
-Puts “Kristyn wants the cookies”
-
-Else
-
-Puts “Kristyn doesn’t want the cookies”
-
-•Opprand (Same thing as Ternary?)
-
-
-If cookies .has(chocolate) ? puts “Kristyn is excited for cookies” “ puts “Kristyn doesn't want the cookies”
-
-•Case
+#•Opprand (Same thing as Ternary?)
+puts (cookies.include?('chocolate') ? "Kristyn is excited for cookies" : "Kristyn doesn't want the cookies")
 
 
-Case Cookies
+#•Case
+cookie ='Peanutbutter'
+case cookie
 
-     When “Chocolate”
+  when "Chocolate"
 
-    Puts “Yummy”
+    puts "Yummy"
 
-    When “Peanutbutter”
+  when "Peanutbutter"
 
-    Puts “Delicious
+    puts "Delicious"
 
-     When Oatmeal
+  when "Oatmeal"
 
-    Puts “Gross”
+    puts "Gross"
 
-    Else
+  else
 
-    Puts “Haven’t tried”
+    puts "Haven’t tried"
+
+end
 
 
 
 
 
 
+#If you want to push yourself try the following
 
-If you want to push yourself try the following
-
-•An if else statement with an if else statement inside of these
-
-
-◦Try to hit all of the conditions there should be 4 possible outcomes
+#•An if else statement with an if else statement inside of these
 
 
-•Case statement with multiple values on a when line
+#◦Try to hit all of the conditions there should be 4 possible outcomes
 
 
-Case Cookies
-
-     When “Chocolate” or “Peanutbutter”
-
-    Puts “Yummy”
-
-    When “Oatmeal”
-
-    Puts “Gross”
-
-    Else
-
-    Puts “Haven’t tried”
+#•Case statement with multiple values on a when line
 
 
 
 
-•Setting a variable using an ternary
+cookie ='Peanutbutter'
+case cookie
 
+  when "Chocolate", "Peanutbutter"
 
+    puts "Yummy"
+
+  when "Oatmeal"
+
+    puts "Gross"
+
+  else
+
+    puts "Haven’t tried"
+
+end
+
+#•Setting a variable using an ternary
